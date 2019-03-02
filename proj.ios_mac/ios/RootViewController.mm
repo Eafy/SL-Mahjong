@@ -27,7 +27,7 @@
 #import "RootViewController.h"
 #import "cocos2d.h"
 #import "platform/ios/CCEAGLView-ios.h"
-
+#import "CheckUpdateController.h"
 
 @implementation RootViewController
 
@@ -57,6 +57,8 @@
     
     // Set EAGLView as view of RootViewController
     self.view = eaglView;
+
+    [[CheckUpdateController sharedCheckUpdate] checkAppUpdate:YES block:nil];
 }
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.

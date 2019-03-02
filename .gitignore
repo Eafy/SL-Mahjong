@@ -1,4 +1,47 @@
-cocos2d
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+xcuserdata
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*/.DS_Store
+.DS_Store
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+timeline.xctimeline
+playground.xcworkspace
+
+.build/
+
+Pods/
+Podfile.lock
+*.xcworkspace
+
+
+Carthage/Build
+
 proj.android/.idea
 proj.ios_mac/.idea
 proj.ios_mac/cocostudio-mahjong.xcodeproj/project.xcworkspace/xcuserdata/farmer.xcuserdatad
