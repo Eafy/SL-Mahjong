@@ -53,7 +53,7 @@ static AppDelegate s_sharedApplication;
     window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
 
     // Use RootViewController to manage CCEAGLView
-    _viewController = [[RootViewController alloc]init];
+    _viewController = [[RootViewController alloc] init];
     _viewController.wantsFullScreenLayout = YES;
     
 
